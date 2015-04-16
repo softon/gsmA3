@@ -1,0 +1,84 @@
+/*
+ * **************************************************************
+ ****************  MCS EXPT3 ******************************
+ ***************************************************************/
+ /* Designed & Developed by
+ /*                                    - Shiburaj Pappu
+ /* ************  S.P.I.T *************************************
+ /* ********** M.E (EXTC) Sem-II *****************************
+ */
+@CHARSET "ISO-8859-1";
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+div.col1 {
+	width:45%;
+	float:left;
+	
+}
+div.col2 {
+	width:10%;
+	float:left;
+    padding: 200px 0px;
+}
+
+div.col2 div{
+	
+}
+
+
+div.col3 {
+	width:45%;
+	float:left;
+    
+}
+
+div.box {
+	border:1px solid blue;
+	background:#D3DCE3;
+	height:650px;
+	margin:10px 50px;
+	padding:10px;
+    text-align: center;
+}
+
+.codearea {
+    width: 100%;
+    height: 200px;
+}
+
+#msisdn{
+    padding-left: 20px;
+    border: 1px solid blue;
+}
+
+.btn {
+    border: 1px solid #3F6C01;
+    background: #D0F79E;
+}
+
+textarea {
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+#regvars,#authvars,#simvars {
+    text-align: left;
+    display: none;
+}
+
+
+#regvars div span,#authvars div span,#simvars div span{
+    font-weight: bold;
+}
+
+#simKival {
+    width: 300px;
+}
+
+#authImg {
+    padding: 10px;
+    display: none;
+}
